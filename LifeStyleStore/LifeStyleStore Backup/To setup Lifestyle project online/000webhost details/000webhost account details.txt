@@ -1,0 +1,9 @@
+000webhost account email : singhamartya.sa@gmail.com	
+password: SINGH#1999
+
+
+000webhost file manager website name : lifestylestore-amartya-singh
+password: SINGH#1999
+
+000webhost php my admin user name : id6304596_root 
+password: singh

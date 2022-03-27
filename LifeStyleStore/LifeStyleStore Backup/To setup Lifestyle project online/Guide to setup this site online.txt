@@ -1,0 +1,21 @@
+Extract public_html_backup.zip in the root directory of the server.
+after extracting it will have address like /public_html_backup.
+
+Now import mysql database structure i.e id6304596_store.sql using php-my-admin on your server.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+in common.php file under includes folder  edit some codes to connect with data-base (shown-below)
+
+example:
+$con = mysqli_connect("localhost", "id6304596_root", "singh", "id6304596_store");
+
+explanation of above example:
+$con = mysqli_connect("host_address", "username", "password", "database_name");
+
+ for most servers host_address will be localhost only.
+ if you import same data base structure as provided keep database_name as id6304596_store
+
+make same changes in signup_script.php line number : 54
+
+---------------------------------------------------------------------------------------------------------------------------------------
